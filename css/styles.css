@@ -17,7 +17,7 @@ h2 {
     font-size: 2rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
-    color: #45B29A;
+    color: #1E836C;
     position: relative;
     z-index: 5;
 }
@@ -48,6 +48,8 @@ hr {
 }
 
 .bottom-container {
+    background-color: #E4F9F5;
+    padding: 3rem;
 }
 
 .top-cloud {
@@ -80,10 +82,61 @@ hr {
     padding: 0 1rem;
 }
 
+.contact-me {
+    max-width: 40rem;
+    margin: 4rem auto;
+    padding: 0 1rem;
+}
+
+.btn {
+    display: inline-block;
+    background: #45b29a;
+    font-family: 'Montserrat', sans-serif;
+    background-image: -webkit-linear-gradient(top, #45b29a, #11999e);
+    background-image: -moz-linear-gradient(top, #45b29a, #11999e);
+    background-image: -ms-linear-gradient(top, #45b29a, #11999e);
+    background-image: -o-linear-gradient(top, #45b29a, #11999e);
+    background-image: linear-gradient(to bottom, #45b29a, #11999e);
+    -webkit-border-radius: 2;
+    -moz-border-radius: 2;
+    border-radius: 2px;
+    color: #ffffff;
+    font-size: 1rem;
+    padding: 15px 30px 15px 30px;
+    margin: 20px auto;
+    text-decoration: none;
+}
+  
+.btn:hover {
+    background: #30e3cb;
+    color: #1E836C;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
 .skill-row {
     margin: 2rem auto;
 }
 
 .footer-link {
+    display: inline-block;
+    margin: 1rem 3rem;
+    font-size: 1.5rem;
     color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #1E836C;
+    font-size: 2rem;
+}
+
+.copyright {
+    color: #1E836C;
+    letter-spacing: normal;
 }
